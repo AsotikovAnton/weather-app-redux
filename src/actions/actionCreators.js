@@ -6,7 +6,7 @@ import {
 } from "./actionTypes";
 
 const _urlBase =
-  "https://api.openweathermap.org/data/2.5/weather?appid=c9744564742f73ddda7ea74738df772a&units=metric&lang=ru&q=";
+  "//api.openweathermap.org/data/2.5/weather?appid=c9744564742f73ddda7ea74738df772a&units=metric&lang=ru&q=";
 
 export function changeTownField(name, value) {
   return { type: CHANGE_TOWN_FIELD, payload: { name, value } };
