@@ -28,7 +28,7 @@ export default function Weather() {
 
   return (
     <div className="weather mt-3">
-      <table className="table table-striped">
+      <table className="table table-striped table-dark">
         <thead>
           <tr>
             <th>Город</th>
@@ -48,7 +48,7 @@ export default function Weather() {
             <td>{weather?.[0]?.description}</td>
             <td>
               <img
-                src={`http://openweathermap.org/img/wn/${icon}.png`}
+                src={`https://openweathermap.org/img/wn/${icon}.png`}
                 alt="icon"
                 style={{ width: "35px" }}
               />
